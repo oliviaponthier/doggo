@@ -30,7 +30,12 @@
     <label for="exampleInputdog's name1">Dog's name</label>
     <input type="Name" class="form-control" id="exampleInputName1" placeholder="Name">
   </div>
- 
+ <button type="button" onclick="setName()">confirm</button>
+ <script>
+  function setName(){
+    document.getElementById("confirm").innerHTML = prompt('Account Username')
+  }
+ </script>
   </div>
   <div class="checkbox">
     <label>
@@ -48,6 +53,7 @@
 	<script src="http://sabioapi2.azurewebsites.net/scripts/sabio.js"></script>
 	<!-- All your code goes below here-->
 	<script type="text/javascript">
+
 
 
     
